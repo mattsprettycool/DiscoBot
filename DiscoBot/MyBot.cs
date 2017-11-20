@@ -1,5 +1,6 @@
 ﻿using Discord;
 using Discord.Commands;
+using Google.Apis.Translate.v2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,7 +31,7 @@ namespace DiscoBot
             commands.CreateCommand("commands")
                 .Do(async (e) =>
                 {
-                    await e.Channel.SendMessage("!debug - sends hello world\n!fish - sends an image of a fish\n!dissapointed - sends an image of a dissapointed man\n!angry - sends an angry face\n!bored - sends and image of pure boredom\n!dood - dood!\n!retarded - sends the dumbest image known to man\n!hype - sends the most hype image\n!ok - sends Lucoa from the other world just to agree with you\n!nut - sends the nuttiest nut ever nutted");
+                    await e.Channel.SendMessage("!debug - sends hello world\n!fish - sends an image of a fish\n!dissapointed - sends an image of a dissapointed man\n!angry - sends an angry face\n!bored - sends and image of pure boredom\n!dood - dood!\n!retarded - sends the dumbest image known to man\n!hype - sends the most hype image\n!ok - sends Lucoa from the other world just to agree with you\n!nut - sends the nuttiest nut ever nutted\n!translatejp (your text) - translates given text into japanese IT DOESN'T WORK YET RIIIIP");
                 });
 
             commands.CreateCommand("debug")
@@ -91,6 +92,24 @@ namespace DiscoBot
                 .Do(async (e) =>
                 {
                     await e.Channel.SendFile("emotes/psiNut.png");
+                });
+
+            commands.CreateCommand("translatejp")
+                .Parameter("text", ParameterType.Required)
+                .Do(async (e) =>
+                {
+                    Google.Apis.Translate.v2.Data.TranslateTextRequest trq = new Google.Apis.Translate.v2.Data.TranslateTextRequest();
+                    List<string> myText = new List<string>();
+                    myText.Add(e.GetArg("text"));
+                    trq.Q = myText;
+                    trq.Source = "en";
+                    trq.Target = "jn";
+                    trq.Format = "text";
+                    TranslationsResource.TranslateRequest tr = new TranslationsResource.TranslateRequest(new TranslateService(), trq);
+
+                    Google.Apis.Translate.v2.TranslationsResource tres = new Google.Apis.Translate.v2.TranslationsResource(new TranslateService());
+                    
+                    await e.Channel.SendMessage(tres.Translate(trq).ToString());
                 });
 
             discord.ExecuteAndWait(async () =>

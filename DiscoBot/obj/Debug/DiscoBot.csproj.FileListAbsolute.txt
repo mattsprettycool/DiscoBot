@@ -53,3 +53,15 @@ C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\fish.png
 C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\psiNut.png
 C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\ok.png
 C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\hypeFull.png
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.Auth.dll
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.Core.dll
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.dll
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.Translate.v2.dll
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\WebTTS.dll
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.xml
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.Auth.xml
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.Core.xml
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.Translate.v2.xml
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\WebTTS.xml

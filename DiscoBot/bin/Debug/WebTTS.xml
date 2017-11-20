@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebTTS</name>
+    </assembly>
+    <members>
+        <member name="T:WebTTS.HttpSupport">
+            <summary>
+            Provides easy HTTP support for interfacing with web API.
+            </summary>
+        </member>
+        <member name="F:WebTTS.HttpSupport.HttpRequest">
+            <summary>
+            HTTP request object.
+            </summary>
+        </member>
+        <member name="M:WebTTS.HttpSupport.CreateRequest(System.String)">
+            <summary>
+            Create request to specified host.
+            </summary>
+            <param name="uri">URI path to host.</param>
+        </member>
+        <member name="M:WebTTS.HttpSupport.GetResponse">
+            <summary>
+            Gets response from host.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebTTS.HttpSupport.ReadResponseStream(System.IO.Stream)">
+            <summary>
+            Read data from response body to specified stream.
+            </summary>
+            <param name="output">Output stream to be written.</param>
+        </member>
+        <member name="M:WebTTS.HttpSupport.WriteRequestStream(System.Byte[])">
+            <summary>
+            Write data to request body.
+            </summary>
+            <param name="data">Data to be written.</param>
+        </member>
+        <member name="M:WebTTS.HttpSupport.WriteRequestStream(System.String)">
+            <summary>
+            Write data to request body.
+            </summary>
+            <remarks>Data will be encoded using UTF-8.</remarks>
+            <param name="data">Data to be written.</param>
+        </member>
+        <member name="T:WebTTS.IVoiceProvider">
+            <summary>
+            Provides abstract TTS capability signature.
+            </summary>
+        </member>
+        <member name="M:WebTTS.IVoiceProvider.CreateSpeech(System.String,System.String)">
+            <summary>
+            Create speech using specified text and saves to desired location. 
+            </summary>
+            <param name="text">Text to be spoken.</param>
+            <param name="outputPath">Fullpath to output file.</param>
+        </member>
+        <member name="M:WebTTS.IVoiceProvider.Speak(System.String)">
+            <summary>
+            Speak specified text syncronously.
+            </summary>
+            <param name="text">Text to be spoken</param>
+        </member>
+        <member name="M:WebTTS.IVoiceProvider.SpeakAsync(System.String)">
+            <summary>
+            Speak specified text asyncronously.
+            </summary>
+            <param name="text">Text to be spoken</param>
+        </member>
+        <member name="T:WebTTS.WebHelpers">
+            <summary>
+            Provides basic helper methods.
+            </summary>
+        </member>
+        <member name="M:WebTTS.WebHelpers.StringToBytes(System.String)">
+            <summary>
+            Converts <see cref="T:System.String"/> to <see cref="T:System.Byte"/> array using UTF-8 encoding.
+            </summary>
+            <param name="str"><see cref="T:System.String"/> object to convert to.</param>
+            <returns><see cref="T:System.Byte"/> array of encoded <see cref="T:System.String"/>.</returns>
+        </member>
+        <member name="M:WebTTS.WebHelpers.HexEncode(System.Byte[])">
+            <summary>
+            Converts <see cref="T:System.Byte"/> array to hex.
+            </summary>
+            <param name="bytes"><see cref="T:System.Byte"/> array  object to encode.</param>
+            <returns>Encoded <see cref="T:System.String"/>.</returns>
+        </member>
+        <member name="M:WebTTS.WebHelpers.Sha256Hash(System.Byte[])">
+            <summary>
+            Hash specified <see cref="T:System.Byte"/> array using SHA256 algorithm.
+            </summary>
+            <param name="bytes"><see cref="T:System.Byte"/> array to hash.</param>
+            <returns>Hashed <see cref="T:System.Byte"/> array.</returns>
+        </member>
+        <member name="M:WebTTS.WebHelpers.HmacSha256Hash(System.String,System.Byte[])">
+            <summary>
+            Hash specified <see cref="T:System.Byte"/> array using Hmac SHA256 algorithm.
+            </summary>
+            <param name="data"><see cref="T:System.String"/> data to hash.</param>
+            <param name="key"><see cref="T:System.Byte"/> array as key.</param>
+            <returns>Hashed <see cref="T:System.Byte"/> array.</returns>
+        </member>
+    </members>
+</doc>
