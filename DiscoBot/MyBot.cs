@@ -46,6 +46,12 @@ namespace DiscoBot
                     await e.Channel.SendFile("emotes/fish.png");
                 });
 
+            commands.CreateCommand("objection")
+                .Do(async (e) =>
+                {
+                    await e.Channel.SendFile("emotes/objection.png");
+                });
+
             commands.CreateCommand("dissapointed")
                 .Do(async (e) =>
                 {

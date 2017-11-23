@@ -65,3 +65,4 @@ C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.Auth.xml
 C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.Core.xml
 C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.Translate.v2.xml
 C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\WebTTS.xml
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\objection.png
