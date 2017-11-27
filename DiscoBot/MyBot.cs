@@ -164,7 +164,7 @@ namespace DiscoBot
                 .Do(async (e) =>
                 {
                     Random randy = new Random();
-                    int randomNum = randy.Next(0, 2);
+                    int randomNum = randy.Next(0, 3);
                     if (randomNum == 0)
                     {
                         await e.Channel.SendMessage("https://www.youtube.com/watch?v=Z-IMUidnU9o");
