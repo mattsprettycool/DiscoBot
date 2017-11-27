@@ -66,3 +66,74 @@ C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.Core.xml
 C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\Google.Apis.Translate.v2.xml
 C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\WebTTS.xml
 C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\objection.png
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (0).gif
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (1).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (10).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (11).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (12).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (13).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (14).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (15).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (16).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (17).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (18).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (19).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (2).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (20).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (3).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (4).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (5).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (6).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (7).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (8).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (9).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (21).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (22).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (23).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (24).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (25).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (26).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (27).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (28).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (29).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (30).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (31).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (32).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (33).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (34).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (35).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (36).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (37).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (38).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (39).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (40).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (41).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (42).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (43).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (44).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (45).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (46).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (47).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (48).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (49).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (50).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (51).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (52).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (53).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (54).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (55).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (56).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (57).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (58).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (59).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (60).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (61).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (62).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (63).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (64).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (65).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\slurp\slurp (66).jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\help.png
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\sexy-pokemon-ditto.jpg
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\david.gif
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\trant.png
