@@ -31,7 +31,7 @@ namespace DiscoBot
             commands.CreateCommand("commands")
                 .Do(async (e) =>
                 {
-                    await e.Channel.SendMessage("!debug - sends hello world\n!fish - sends an image of a fish\n!dissapointed - sends an image of a dissapointed man\n!angry - sends an angry face\n!bored - sends and image of pure boredom\n!dood - dood!\n!retarded - sends the dumbest image known to man\n!hype - sends the most hype image\n!ok - sends Lucoa from the other world just to agree with you\n!nut - sends the nuttiest nut ever nutted\n!translatejp (your text) - translates given text into japanese IT DOESN'T WORK YET RIIIIP\n!slurp - brings you to the slurp zone\n!help - no\n!jai - sums up Jai in one video\n!sam - sums up Sam in one video\n!hunter - forbidden command\n!david - sums up David in one gif\n!trent - sums up Trent in one of three random things\n!matt - kill me...");
+                    await e.Channel.SendMessage("!debug - sends hello world\n!fish - sends an image of a fish\n!dissapointed - sends an image of a dissapointed man\n!angry - sends an angry face\n!bored - sends and image of pure boredom\n!dood - dood!\n!retarded - sends the dumbest image known to man\n!hype - sends the most hype image\n!ok - sends Lucoa from the other world just to agree with you\n!nut - sends the nuttiest nut ever nutted\n!translatejp (your text) - translates given text into japanese IT DOESN'T WORK YET RIIIIP\n!slurp - brings you to the slurp zone\n!help - no\n!jai - sums up Jai in one video\n!sam - sums up Sam in one video\n!hunter - forbidden command\n!david - sums up David in one gif\n!trent - Removed as per request of Trent\n!matt - kill me...\n!lucas - 360 views...");
                 });
 
             commands.CreateCommand("debug")
@@ -163,24 +163,42 @@ namespace DiscoBot
             commands.CreateCommand("trent")
                 .Do(async (e) =>
                 {
-                    Random randy = new Random();
-                    int randomNum = randy.Next(0, 3);
-                    if (randomNum == 0)
-                    {
-                        await e.Channel.SendMessage("https://www.youtube.com/watch?v=Z-IMUidnU9o");
-                    }
-                    else if(randomNum == 1)
-                    {
-                        await e.Channel.SendMessage("https://www.youtube.com/watch?v=ZWHtLCHc-Po");
-                    }
-                    else
-                        await e.Channel.SendFile("emotes/trant.png");
+                    //Random randy = new Random();
+                    //int randomNum = randy.Next(0, 3);
+                    //if (randomNum == 0)
+                    //{
+                    //await e.Channel.SendMessage("https://www.youtube.com/watch?v=Z-IMUidnU9o");
+                    //}
+                    //else if(randomNum == 1)
+                    //{
+                    //await e.Channel.SendMessage("https://www.youtube.com/watch?v=ZWHtLCHc-Po");
+                    //}
+                    //else
+                    //await e.Channel.SendFile("emotes/trant.png");
+                    await e.Channel.SendMessage("Removed as per request of Trent");
                 });
 
             commands.CreateCommand("matt")
                 .Do(async (e) =>
                 {
                     await e.Channel.SendMessage("https://www.youtube.com/watch?v=D8DnQFwpGNI");
+                });
+
+            commands.CreateCommand("lucas")
+                .Do(async (e) =>
+                {
+                    Random randy = new Random();
+                    int randomNum = randy.Next(0, 3);
+                    if (randomNum == 0)
+                    {
+                        await e.Channel.SendMessage("https://www.youtube.com/watch?v=IbF8wemTKAw");
+                    }
+                    else if (randomNum == 1)
+                    {
+                        await e.Channel.SendMessage("https://www.youtube.com/watch?v=v76OtlwNCns");
+                    }
+                    else
+                        await e.Channel.SendMessage("https://www.youtube.com/watch?v=AjqEu5eJK7Q");
                 });
 
             discord.ExecuteAndWait(async () =>
