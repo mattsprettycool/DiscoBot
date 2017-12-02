@@ -137,3 +137,5 @@ C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\help.png
 C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\sexy-pokemon-ditto.jpg
 C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\david.gif
 C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\trant.png
+C:\Users\Hunter\Documents\GitHub\DiscoBot\DiscoBot\obj\Debug\DiscoBot.exe
+C:\Users\Hunter\Documents\GitHub\DiscoBot\DiscoBot\obj\Debug\DiscoBot.pdb
