@@ -185,6 +185,7 @@
     <Content Include="emotes\fish.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="emotes\fishreal.png" />
     <Content Include="emotes\help.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

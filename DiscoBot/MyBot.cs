@@ -43,7 +43,16 @@ namespace DiscoBot
             commands.CreateCommand("fish")
                 .Do(async (e) =>
                 {
-                    await e.Channel.SendFile("emotes/fish.png");
+                    Random randy = new Random();
+                    int rnd = randy.Next(0, 3);
+                    if (rnd == 0)
+                    {
+                        await e.Channel.SendFile("emotes/fishreal.png");
+                    }
+                    else
+                    {
+                        await e.Channel.SendFile("emotes/fish.png");
+                    }
                 });
 
             commands.CreateCommand("objection")
