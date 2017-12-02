@@ -44,15 +44,16 @@ namespace DiscoBot
                 .Do(async (e) =>
                 {
                     Random randy = new Random();
-                    int rnd = randy.Next(1, 4);
+                    int rnd = randy.Next(1, 3);
                     if (rnd == 1)
                     {
                         await e.Channel.SendFile("emotes/fishreal.png");
                     }
-                    else if(rnd == 2 || rnd == 3)
+                    else if (rnd == 2)
                     {
                         await e.Channel.SendFile("emotes/fish.png");
                     }
+                    Console.WriteLine("DEGBUG: The rnd is " + rnd);
                 });
 
             commands.CreateCommand("objection")
