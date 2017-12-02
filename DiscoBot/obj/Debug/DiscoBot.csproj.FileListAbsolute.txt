@@ -139,3 +139,4 @@ C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\david.gif
 C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\trant.png
 C:\Users\Hunter\Documents\GitHub\DiscoBot\DiscoBot\obj\Debug\DiscoBot.exe
 C:\Users\Hunter\Documents\GitHub\DiscoBot\DiscoBot\obj\Debug\DiscoBot.pdb
+C:\Users\Matt\source\repos\DiscoBot\DiscoBot\bin\Debug\emotes\fishreal.png

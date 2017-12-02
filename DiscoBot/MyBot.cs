@@ -45,6 +45,7 @@ namespace DiscoBot
                 {
                     Random randy = new Random();
                     int rnd = randy.Next(1, 3);
+                    Console.WriteLine("DEGBUG: The rnd is " + rnd);
                     if (rnd == 1)
                     {
                         await e.Channel.SendFile("emotes/fishreal.png");
@@ -53,7 +54,6 @@ namespace DiscoBot
                     {
                         await e.Channel.SendFile("emotes/fish.png");
                     }
-                    Console.WriteLine("DEGBUG: The rnd is " + rnd);
                 });
 
             commands.CreateCommand("objection")
