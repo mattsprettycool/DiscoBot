@@ -31,7 +31,7 @@ namespace DiscoBot
             commands.CreateCommand("commands")
                 .Do(async (e) =>
                 {
-                    await e.Channel.SendMessage("!debug - sends hello world\n!fish - sends an image of a fish\n!dissapointed - sends an image of a dissapointed man\n!angry - sends an angry face\n!bored - sends and image of pure boredom\n!dood - dood!\n!retarded - sends the dumbest image known to man\n!hype - sends the most hype image\n!ok - sends Lucoa from the other world just to agree with you\n!nut - sends the nuttiest nut ever nutted\n!translatejp (your text) - translates given text into japanese IT DOESN'T WORK YET RIIIIP\n!slurp - brings you to the slurp zone\n!help - no\n!jai - sums up Jai in one video\n!sam - sums up Sam in one video\n!hunter - forbidden command\n!david - sums up David in one gif\n!trent - Removed as per request of Trent\n!matt - kill me...\n!lucas - 360 views...");
+                    await e.Channel.SendMessage("!debug - sends hello world\n!fish - sends an image of a fish\n!dissapointed - sends an image of a dissapointed man\n!angry - sends an angry face\n!bored - sends and image of pure boredom\n!dood - dood!\n!retarded - sends the dumbest image known to man\n!hype - sends the most hype image\n!ok - sends Lucoa from the other world just to agree with you\n!nut - sends the nuttiest nut ever nutted\n!translatejp (your text) - translates given text into japanese IT DOESN'T WORK YET RIIIIP\n!slurp - brings you to the slurp zone\n!help - no\n!jai - sums up Jai in one video\n!sam - sums up Sam in one video\n!hunter - forbidden command\n!david - sums up David in one gif\n!trent - Removed as per request of Trent\n!matt - kill me...\n!lucas - 360 views...\n!d (ammount of sides) (ammount of rolls) - rolls a dice of the specified sides the specified ammount of times");
                 });
 
             commands.CreateCommand("debug")
@@ -200,6 +200,19 @@ namespace DiscoBot
                     else
                         await e.Channel.SendMessage("https://www.youtube.com/watch?v=AjqEu5eJK7Q");
                 });
+            commands.CreateCommand("d")
+                .Parameter("sides", ParameterType.Required)
+                .Parameter("rolls", ParameterType.Required)
+                .Do(async (e) =>
+                {
+                    Random randy = new Random();
+                    string s = "Your dice rolls are:\n";
+                    for(int i = 1; i <= this.GetFullNumFromText(e.GetArg("rolls")); i++)
+                    {
+                        s += randy.Next(1, GetFullNumFromText(e.GetArg("sides")) + 1) + "\n";
+                    }
+                    await e.Channel.SendMessage(s);
+                });
 
             discord.ExecuteAndWait(async () =>
             {
@@ -209,6 +222,131 @@ namespace DiscoBot
         private void Log(object sender, LogMessageEventArgs e)
         {
             Console.WriteLine(e.Message);
+        }
+        private int GetFullNumFromText(string s)
+        {
+            int finalNum = 0;
+            string startingNum = "";
+            for(int i = 0; i < s.Length; i++)
+            {
+                for(int k = 0; k < 10; k++)
+                {
+                    //Console.WriteLine(s.ElementAt(i)+" equals "+ GetTextFromNum(k)+"\n"+(s.ElementAt(i).Equals(GetTextFromNum(k))));
+                    if (s.ElementAt(i).Equals(GetTextFromNum(k).ElementAt(0)))
+                    {
+                        startingNum += s.ElementAt(i);
+                        break;
+                    }
+                        
+                }
+            }
+            //Console.WriteLine(startingNum);
+            int zerosAtFront = 0;
+            for(int i = 0; i < startingNum.Length; i++)
+            {
+                if (startingNum.ElementAt(i).Equals("0"))
+                {
+                    zerosAtFront++;
+                }
+                else
+                    break;
+            }
+            for(int i = 0; i < startingNum.Length; i++)
+            {
+                if(i >= zerosAtFront)
+                {
+                    finalNum += GetNumFromChar(startingNum.ElementAt(i)) * (int)(Math.Pow(10.0, startingNum.Length - i - 1));
+                }
+            }
+            //Console.WriteLine("Starting Num is: " + startingNum + " Final Num is: " + finalNum);
+            return finalNum;
+        }
+        private string GetTextFromNum(int num)
+        {
+            if (num == 0)
+            {
+                return "0";
+            }else if (num == 1)
+            {
+                return "1";
+            }
+            else if (num == 2)
+            {
+                return "2";
+            }
+            else if (num == 3)
+            {
+                return "3";
+            }
+            else if (num == 4)
+            {
+                return "4";
+            }
+            else if (num == 5)
+            {
+                return "5";
+            }
+            else if (num == 6)
+            {
+                return "6";
+            }
+            else if (num == 7)
+            {
+                return "7";
+            }
+            else if (num == 8)
+            {
+                return "8";
+            }
+            else if (num == 9)
+            {
+                return "9";
+            }
+            return null;
+        }
+        private int GetNumFromChar(char s)
+        {
+            if (s.Equals('0'))
+            {
+                return 0;
+            }
+            else if (s.Equals('1'))
+            {
+                return 1;
+            }
+            else if (s.Equals('2'))
+            {
+                return 2;
+            }
+            else if (s.Equals('3'))
+            {
+                return 3;
+            }
+            else if (s.Equals('4'))
+            {
+                return 4;
+            }
+            else if (s.Equals('5'))
+            {
+                return 5;
+            }
+            else if (s.Equals('6'))
+            {
+                return 6;
+            }
+            else if (s.Equals('7'))
+            {
+                return 7;
+            }
+            else if (s.Equals('8'))
+            {
+                return 8;
+            }
+            else if (s.Equals('9'))
+            {
+                return 9;
+            }
+            return 0;
         }
     }
 }
